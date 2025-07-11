@@ -1,0 +1,1379 @@
+2025-07-11 13:53:26 | INFO     | src.services.gmail_service:_initialize_credentials:60 - Gmail service initialized successfully
+2025-07-11 13:53:26 | INFO     | __main__:start:45 - Starting Intelligent Email Response System...
+2025-07-11 13:53:26 | INFO     | __main__:_perform_health_checks:72 - Performing health checks...
+2025-07-11 13:53:26 | INFO     | __main__:_perform_health_checks:82 - Gmail service initialized
+2025-07-11 13:53:26 | INFO     | __main__:_perform_health_checks:90 - Policy service healthy - 0 policies loaded
+2025-07-11 13:53:26 | INFO     | __main__:_perform_health_checks:95 - All health checks completed
+2025-07-11 13:53:26 | INFO     | __main__:_process_email_batch:100 - Processing email batch...
+2025-07-11 13:53:32 | INFO     | src.services.gmail_service:get_emails:84 - Retrieved 10 emails from Gmail
+2025-07-11 13:53:32 | INFO     | __main__:_process_email_batch:112 - Found 10 unread emails
+2025-07-11 13:53:33 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Security alert [image: Google]
+A new sign-in on Mac
+
+
+kinjalmomaya3@gmail.com
+We noticed a new sign-in to your Google Account on a Mac device. If this
+was you, you don’t need to do anything. If not, we’ll help you secure your
+account.
+Check activity
+<https://accounts.google.com/AccountChooser?Email=kinjalmomaya3@gmail.com&continue=https://myaccount.google.com/alert/nt/1752217171000?rfn%3D325%26rfnc%3D1%26eid%3D1363177966923893972%26et%3D0>
+You can also see security activity at
+https://myaccount.google.com/notifications
+You received this email to let you know about important changes to your
+Google Account and services.
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+
+2025-07-11 13:53:33 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197f8483ed2f3c8c in 1.43s
+2025-07-11 13:53:34 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197f8483ed2f3c8c marked as read
+2025-07-11 13:53:35 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197f8483ed2f3c8c
+2025-07-11 13:53:36 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Security alert [image: Google]
+A new sign-in on Mac
+
+
+kinjalmomaya3@gmail.com
+We noticed a new sign-in to your Google Account on a Mac device. If this
+was you, you don’t need to do anything. If not, we’ll help you secure your
+account.
+Check activity
+<https://accounts.google.com/AccountChooser?Email=kinjalmomaya3@gmail.com&continue=https://myaccount.google.com/alert/nt/1752216487000?rfn%3D325%26rfnc%3D1%26eid%3D-394770365888301470%26et%3D0>
+You can also see security activity at
+https://myaccount.google.com/notifications
+You received this email to let you know about important changes to your
+Google Account and services.
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+
+2025-07-11 13:53:36 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197f83dcc3aa2f81 in 0.21s
+2025-07-11 13:53:36 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197f83dcc3aa2f81 marked as read
+2025-07-11 13:53:37 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197f83dcc3aa2f81
+2025-07-11 13:53:37 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Notion 2.52 ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
+­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏
+ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­
+­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ 
+
+Notion ( https://www.notion.so?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+See whats new ( https://notion.so/build-database?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+Databases can sound intimidating. But they’re the #1 most important building block for you to get stuff done—from task trackers and product roadmaps to storing all your docs.
+
+Now your databases just got the biggest refresh in Notion history: a clean new design, easier to use, and more capable than ever.
+
+Try a database → ( https://notion.so/build-database?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+“Try a database” works when opened on desktop.
+
+************************
+Databases got a makeover
+************************
+
+From clearer names and cleaner tables to simpler settings, gentler visuals, and fewer distractions, databases just got much simpler! The new “+ property” makes naming and picking a property much smoother. You can now group, insert, or rename properties right from the property menu. Web, desktop, mobile— all refreshed! See the full list of updates ( https://x.com/NotionHQ/status/1935380233265496134?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+New <code>Feed</code> view to review content ( https://www.notion.so/?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+*******************************
+New Feed view to review content
+*******************************
+
+Like turning your database into a blog feed! Use it to scroll through tasks, updates, research, class notes and more. Just add a new view to your database and select Feed.
+
+New Feed view to review content ( https://www.notion.so/?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+****************************************
+Chat with your database in research mode
+****************************************
+
+Now Notion AI can answer extra-complex questions about your databases, drawing info across properties and any notes inside your database pages.
+
+Try it by going to Home, selecting the Research tab, and @-mention a database in your
+question.
+
+Chat with your database in research mode ( https://www.notion.so/?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+**************************************
+Database row permissions (coming soon)
+**************************************
+
+Notion’s #2 most requested feature is nearly here! (#1 is offline mode, also coming very soon! ( https://x.com/ivanhzhao/status/1917945420975841318?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )) You’ll be able to grant permissions by database row. The person assigned to those database pages won’t be able to see the rest of the database 😅. Stay tuned.
+
+Database permissions ( https://www.notion.so/?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+***********************************
+Search Gmail with Enterprise Search
+***********************************
+
+Have 17,362 messages in your Gmail inbox? Notion AI can help. Search through older archives and new emails to get the latest updates on a project or summarize a long thread. We maintain strict privacy controls, so each user can only see their own inbox. Available on Business and Enterprise plans.
+
+…and search your Gmail inbox ( https://www.notion.so/?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+*************************************
+Importing CSVs just got a lot cleaner
+*************************************
+
+Now you can select which Notion Property Type you want to use for each CSV column, making imports so much tidier! Simply upload and create a new database or merge your CSV with an existing database.
+
+Importing CSVs just got a lot cleaner ( https://www.notion.so/?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+*************************************
+Build with Replit, manage with Notion
+*************************************
+
+Vibe coding continues to amaze us. Now you can connect your apps and websites to a Notion database to manage all the content: visual assets, posts, and tasks. Check out this Replit demo ( https://x.com/mattppal/status/1927364391281799504?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io ).
+
+Build with Replit, manage with Notion ( https://www.notion.so/?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+************
+Improvements
+************
+
+* Databases are way easier to use on mobile ( https://x.com/NotionHQ/status/1935737823707165156?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io ). Tap, view, edit, or create filters with a couple flicks of your thumb.
+* Manage any Notion database in Notion Calendar if it includes dates. Just click into the view and select Open in Calendar. Great for tracking deadlines.
+* Search your PDFs in Notion, Google Drive, SharePoint and OneDrive with Enterprise Search!
+* Google Drive AI Connector can now search across more file types: .docx, pptx, xlsx, csv, and PDFs.
+
+Try a database → ( https://notion.so/build-database?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+“Try a database” works when opened on desktop.
+
+We hope this makes databases, the beating heart of your Notion workspace, a little easier! We promise to keep finding more ways to improve this tool for you.
+
+Happy summer,
+Ivan
+
+P.S. AI meeting notes work great in databases and you can try it for free → ( https://www.notion.so/?target=create_meeting_note&utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+Write, plan, organize.
+In one AI-powered workspace.
+
+Notion ( https://www.notion.so/?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+Notion Mail ( https://www.notion.com/product/mail?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+Notion Calendar ( https://www.notion.com/product/calendar?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+685 Market Street, San Francisco, CA 94105
+
+Don't want this kind of email? Unsubscribe from Product Updates and Releases ( http://track.customer.io/unsubscribe/dgTv2AULAKOuileiropXAZf2Gmei2Gsr0KNH0_TrUA== ).
+Manage preferences ( http://track.customer.io/manage_subscription_preferences/dgTv2AULAKOuileiropXAZf2Gmei2Gsr0KNH0_TrUA== ) Privacy Policy ( https://www.notion.so/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091?utm_campaign=What%27s+New+2.52+-+Databases+-+Personal&utm_campaignid=759&utm_campaigntype=seg_attr&utm_content=Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io ) View in browser ( http://track.customer.io/deliveries/dgTv2AULAKOuileiropXAZf2Gmei2Gsr0KNH0_TrUA== )
+2025-07-11 13:53:37 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197f61c46dd6041a in 0.21s
+2025-07-11 13:53:38 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197f61c46dd6041a marked as read
+2025-07-11 13:53:38 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197f61c46dd6041a
+2025-07-11 13:53:38 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: [Action may be required] AWS Amplify End of Support for Node.js 14/16/18 based apps on September 15, 2025 [AWS Account: 471112897745] [AP-SOUTH-1] Hello,
+
+[AWS Health may periodically trigger reminder notifications about this communication if resources remain unresolved.]
+
+Starting September 15, 2025, AWS Amplify Console will end support for Node.js 14, Node.js 16 and Node.js 18. After this date, you will not be able to deploy updates to your application until you upgrade your Node version. Please update all applications that use Node.js 14, Node.js 16 and Node.js 18 to Node.js 20+ before September 15, 2025.
+
+Please note that, already deployed applications with Node.js 14, Node.js 16 and Node.js 18 will continue to run, and will not be impacted unless you need to deploy updates. 
+
+We recommend testing your application on a new branch before upgrading to ensure all app functionality works. For migration guidelines, visit the "I need to update my application's Node.js version" section on page [1].
+
+A list of affected resources can be found in the "Affected resources" tab of the AWS Health Dashboard. 
+
+If you have any questions or concerns, please reach out to AWS Support [2].
+
+[1] https://docs.aws.amazon.com/amplify/latest/userguide/troubleshooting-general.html#update-node-version
+[2] https://aws.amazon.com/support
+
+Sincerely,
+Amazon Web Services
+
+Amazon Web Services, Inc. is a subsidiary of Amazon.com, Inc. Amazon.com is a registered trademark of Amazon.com, Inc. This message was produced and distributed by Amazon Web Services Inc., 410 Terry Ave. North, Seattle, WA 98109-5210
+
+---
+Reference: https://health.aws.amazon.com/health/home?region=us-east-1#/event-log?eventID=arn:aws:health:ap-south-1::event/AMPLIFY/AWS_AMPLIFY_CONSOLE_PLANNED_LIFECYCLE_EVENT/AWS_AMPLIFY_CONSOLE_PLANNED_LIFECYCLE_EVENT_2bd56709caa3243d30925c785e200688201eace10558b6d779fc36096b4ad620&amp;eventTab=details
+
+[Beginning September 15, 2025, emails about AWS Health events will be delivered via AWS User Notifications. AWS User Notifications provides de-duplication of emails within AWS organizations and a configuration interface to manage subscriptions. Emails about AWS Health events will be sent from a new sender address: health@aws.com and in HTML format, rather than plain text. Recipients may need to validate that email rules continue to work with the changes. To switch to the new experience early, please visit https://console.aws.amazon.com/notifications/home?region=us-east-1#/managed-notifications]
+
+2025-07-11 13:53:38 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197f5a2cbaaf755f in 0.05s
+2025-07-11 13:53:39 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197f5a2cbaaf755f marked as read
+2025-07-11 13:53:40 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197f5a2cbaaf755f
+2025-07-11 13:53:40 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: You haven’t tried Notion AI yet? Let’s change that  ( https://www.notion.so/?utm_campaign=AI+Laggards+%28Net-new+only%29+-+2024&utm_campaignid=359&utm_campaigntype=behavioral&utm_content=Email+1.5+-+Updated+use+cases%2C+video+thumbnail+images&utm_medium=email_action&utm_source=customer.io )
+
+Hi Kinjal,
+
+You came to Notion to become more organized and creative. Notion AI combines the power of multiple AI tools with unique knowledge from your Notion workspace to help you achieve your goals.
+
+Explore Notion AI ( https://www.notion.com/product/ai/use-cases?utm_campaign=AI+Laggards+%28Net-new+only%29+-+2024&utm_campaignid=359&utm_campaigntype=behavioral&utm_content=Email+1.5+-+Updated+use+cases%2C+video+thumbnail+images&utm_medium=email_action&utm_source=customer.io )
+
+🏆 Write in your style:
+
+AI-powered writing without AI-sounding language. Edit your documents, get feedback, and improve your writing—all according to your own style guides. Learn how → ( https://www.notion.com/product/ai/use-cases/write-in-your-style?utm_campaign=AI+Laggards+%28Net-new+only%29+-+2024&utm_campaignid=359&utm_campaigntype=behavioral&utm_content=Email+1.5+-+Updated+use+cases%2C+video+thumbnail+images&utm_medium=email_action&utm_source=customer.io )
+
+Write in your style ( https://www.notion.com/product/ai/use-cases/write-in-your-style?utm_campaign=AI+Laggards+%28Net-new+only%29+-+2024&utm_campaignid=359&utm_campaigntype=behavioral&utm_content=Email+1.5+-+Updated+use+cases%2C+video+thumbnail+images&utm_medium=email_action&utm_source=customer.io )
+
+💭 Chat about anything:
+
+Notion AI is powered by models like GPT-4 and Claude, so you can chat with it about anything — from context gathering at work, to advice on training for a 10k.Get Started → ( https://www.notion.com/product/ai/use-cases/chat-about-anything?utm_campaign=AI+Laggards+%28Net-new+only%29+-+2024&utm_campaignid=359&utm_campaigntype=behavioral&utm_content=Email+1.5+-+Updated+use+cases%2C+video+thumbnail+images&utm_medium=email_action&utm_source=customer.io )
+
+Chat about anything ( https://www.notion.com/product/ai/use-cases/chat-about-anything?utm_campaign=AI+Laggards+%28Net-new+only%29+-+2024&utm_campaignid=359&utm_campaigntype=behavioral&utm_content=Email+1.5+-+Updated+use+cases%2C+video+thumbnail+images&utm_medium=email_action&utm_source=customer.io )
+
+🔍 Analyze PDFs and images:
+
+Look at file attachments (including PDFs) to craft summaries, extract insights, answer questions, and create actionable plans based on the attachment’s content. Try it → ( https://www.notion.com/product/ai/use-cases/analyze-pdfs-images?utm_campaign=AI+Laggards+%28Net-new+only%29+-+2024&utm_campaignid=359&utm_campaigntype=behavioral&utm_content=Email+1.5+-+Updated+use+cases%2C+video+thumbnail+images&utm_medium=email_action&utm_source=customer.io )
+
+TAnalyze PDFs and images ( https://www.notion.com/product/ai/use-cases/analyze-pdfs-images?utm_campaign=AI+Laggards+%28Net-new+only%29+-+2024&utm_campaignid=359&utm_campaigntype=behavioral&utm_content=Email+1.5+-+Updated+use+cases%2C+video+thumbnail+images&utm_medium=email_action&utm_source=customer.io )
+
+Thanks,
+
+The Notion Team
+
+Write, plan, organize.
+In one AI-powered workspace.
+
+Notion ( https://www.notion.so/?utm_campaign=AI+Laggards+%28Net-new+only%29+-+2024&utm_campaignid=359&utm_campaigntype=behavioral&utm_content=Email+1.5+-+Updated+use+cases%2C+video+thumbnail+images&utm_medium=email_action&utm_source=customer.io )
+Notion Mail ( https://www.notion.com/product/mail?utm_campaign=AI+Laggards+%28Net-new+only%29+-+2024&utm_campaignid=359&utm_campaigntype=behavioral&utm_content=Email+1.5+-+Updated+use+cases%2C+video+thumbnail+images&utm_medium=email_action&utm_source=customer.io )
+Notion Calendar ( https://www.notion.com/product/calendar?utm_campaign=AI+Laggards+%28Net-new+only%29+-+2024&utm_campaignid=359&utm_campaigntype=behavioral&utm_content=Email+1.5+-+Updated+use+cases%2C+video+thumbnail+images&utm_medium=email_action&utm_source=customer.io )
+
+685 Market Street, San Francisco, CA 94105
+
+Don't want this kind of email? Unsubscribe from Product Updates and Releases ( http://track.customer.io/unsubscribe/dgTv2AUAAKOuileiropXAZf0-M3HxUHmc9P6VREMnA== ).
+Manage preferences ( http://track.customer.io/manage_subscription_preferences/dgTv2AUAAKOuileiropXAZf0-M3HxUHmc9P6VREMnA== ) Privacy Policy ( https://www.notion.so/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091?utm_campaign=AI+Laggards+%28Net-new+only%29+-+2024&utm_campaignid=359&utm_campaigntype=behavioral&utm_content=Email+1.5+-+Updated+use+cases%2C+video+thumbnail+images&utm_medium=email_action&utm_source=customer.io ) View in browser ( http://track.customer.io/deliveries/dgTv2AUAAKOuileiropXAZf0-M3HxUHmc9P6VREMnA== )
+2025-07-11 13:53:40 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197f4f8dc3f4b0b1 in 0.07s
+2025-07-11 13:53:40 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197f4f8dc3f4b0b1 marked as read
+2025-07-11 13:53:41 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197f4f8dc3f4b0b1
+2025-07-11 13:53:41 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Build, send, done: Fast forms in Notion ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏
+ ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏
+ ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ 
+
+( https://www.notion.so/?utm_campaign=Forms+-+New+use+case+discovery&utm_campaignid=574&utm_campaigntype=behavioral&utm_content=%28JW+-+Forms%29+Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+Hi Kinjal,
+
+Congrats on getting started with Notion! Ready to keep going? Notion forms are an easy way to collect information and streamline your productivity. You can try one of these templates to start collecting what matters most to you.
+
+Run surveys, collect RSVPs, and more
+Create forms in minutes for anything to plan get togethers, vacations, and more.
+
+Forms to run surveys ( https://www.notion.com/templates/simple-survey?utm_campaign=Forms+-+New+use+case+discovery&utm_campaignid=574&utm_campaigntype=behavioral&utm_content=%28JW+-+Forms%29+Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+Try it → ( https://www.notion.com/templates/simple-survey?utm_campaign=Forms+-+New+use+case+discovery&utm_campaignid=574&utm_campaigntype=behavioral&utm_content=%28JW+-+Forms%29+Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+Take simple orders
+Get your side hustle (or main thing!) off the ground by taking orders and managing your customers.
+ 
+
+Forms for orders ( https://www.notion.com/templates/simple-order-form?utm_campaign=Forms+-+New+use+case+discovery&utm_campaignid=574&utm_campaigntype=behavioral&utm_content=%28JW+-+Forms%29+Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+Try it → ( https://www.notion.com/templates/simple-order-form?utm_campaign=Forms+-+New+use+case+discovery&utm_campaignid=574&utm_campaigntype=behavioral&utm_content=%28JW+-+Forms%29+Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+“Contact me”
+Collect contact information without giving out your own—use for a personal website, freelance portfolio or event questionnaire.
+
+Contact me form ( https://www.notion.com/templates/simple-contact-form?utm_campaign=Forms+-+New+use+case+discovery&utm_campaignid=574&utm_campaigntype=behavioral&utm_content=%28JW+-+Forms%29+Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+Try it → ( https://www.notion.com/templates/simple-contact-form?utm_campaign=Forms+-+New+use+case+discovery&utm_campaignid=574&utm_campaigntype=behavioral&utm_content=%28JW+-+Forms%29+Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+Easily track habits
+Use a form to quickly capture progress on habits and goals. Visualize them in a chart to see your progress!
+
+Forms to track habits ( https://www.notion.com/templates/simple-habit-tracker-forms?utm_campaign=Forms+-+New+use+case+discovery&utm_campaignid=574&utm_campaigntype=behavioral&utm_content=%28JW+-+Forms%29+Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+Try it → ( https://www.notion.com/templates/simple-habit-tracker-forms?utm_campaign=Forms+-+New+use+case+discovery&utm_campaignid=574&utm_campaigntype=behavioral&utm_content=%28JW+-+Forms%29+Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+Let us know what you build—we’d love to hear what you accomplish!
+
+Thanks,
+
+The Notion Team
+
+Write, plan, organize.
+In one AI-powered workspace.
+
+Notion ( https://www.notion.so/?utm_campaign=Forms+-+New+use+case+discovery&utm_campaignid=574&utm_campaigntype=behavioral&utm_content=%28JW+-+Forms%29+Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+Notion Mail ( https://www.notion.com/product/mail?utm_campaign=Forms+-+New+use+case+discovery&utm_campaignid=574&utm_campaigntype=behavioral&utm_content=%28JW+-+Forms%29+Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+Notion Calendar ( https://www.notion.com/product/calendar?utm_campaign=Forms+-+New+use+case+discovery&utm_campaignid=574&utm_campaigntype=behavioral&utm_content=%28JW+-+Forms%29+Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io )
+
+685 Market Street, San Francisco, CA 94105
+
+Don't want this kind of email? Unsubscribe from Product Updates and Releases ( http://track.customer.io/unsubscribe/dgTv2AUAAKOuileiropXAZfwN_x1ina9tIMm1C08zQ== ).
+Manage preferences ( http://track.customer.io/manage_subscription_preferences/dgTv2AUAAKOuileiropXAZfwN_x1ina9tIMm1C08zQ== ) Privacy Policy ( https://www.notion.so/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091?utm_campaign=Forms+-+New+use+case+discovery&utm_campaignid=574&utm_campaigntype=behavioral&utm_content=%28JW+-+Forms%29+Email+1+-+Personal&utm_medium=email_action&utm_source=customer.io ) View in browser ( http://track.customer.io/deliveries/dgTv2AUAAKOuileiropXAZfwN_x1ina9tIMm1C08zQ== )
+2025-07-11 13:53:41 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197f038087bac28d in 0.06s
+2025-07-11 13:53:42 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197f038087bac28d marked as read
+2025-07-11 13:53:43 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197f038087bac28d
+2025-07-11 13:53:43 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Redefine flexibility & performance with MongoDB's document model See how MongoDB's document-centric approach can redefine your application's 
+potential.
+
+
+
+ <https://www.mongodb.com/>
+
+Create an efficient data model in MongoDB
+
+
+
+
+
+When building modern applications, your data model needs to evolve as quickly 
+as your features do — without downtime, expensive refactoring, or performance 
+bottlenecks.
+
+
+
+Leveraging the document model makes it easier to design schemas that keep up 
+with today's ever-changing applications.
+
+
+
+To begin building your data model, try our Schema Builder 
+<https://chatgpt.com/g/g-J3KcWl0wj-mdb-schema-builder>, a custom GPT tool 
+designed to guide you in making schema decisions as you start or expand on your 
+data modeling journey.
+
+ <https://chatgpt.com/g/g-J3KcWl0wj-mdb-schema-builder>
+
+To see the Schema Builder in action, watch our live coding session, Coding 
+with AI Coders and MongoDB ChatGPT Schema Builder 
+<https://www.youtube.com/live/4dknA21jsII?feature=shared>. We build a fully 
+deployed music streaming application while demonstrating how Schema Builder’s 
+methodology and AI-powered context simplify data modeling on MongoDB.
+
+Try Schema Builder  <https://chatgpt.com/g/g-J3KcWl0wj-mdb-schema-builder>
+
+ 
+
+Data modeling webinar on-demand
+
+
+In this webinar we will examine the most important considerations when making 
+decisions about your data model, so that you can create the model that best 
+fits your application.
+
+ * The differences between data modeling in MongoDB vs. relational databases
+ * The key considerations for data modeling with MongoDB
+ * How to further enhance the power of the document model with schema design 
+patterns
+
+
+Watch on-demand  
+<https://www.mongodb.com/resources/products/fundamentals/webinar-data-modelling-with-mongodb>
+
+ 
+
+
+
+
+
+
+ <https://www.linkedin.com/company/mongodbinc/>  <https://twitter.com/mongodb> 
+ <https://youtube.com/user/mongodb>  <https://www.instagram.com/mongodb>  
+<https://www.mongodb.com/developer/> 
+
+Copyright © 2025 MongoDB, All rights reserved.
+1633 Broadway Floor 38, New York, NY 10019
+view in browser 
+<https://email.mongodb.com/s/vb/Hp01BAatwZgBj7rlVol_4_Sp5rzLanaMF52nQYSFKaccNEo-vJAWuiV8tmA9b8oW7ED_1Efk-_Ee9k5lFTA6i1Kpt6IfI9xVXSMrW_OGUjoovw4qtjfyRzJJySQLWRG2tiecGd4zTySLRKn9wg/Who_MunGk6pEU3lFT9gyH0CQSP9cBgfG/10>
+ orunsubscribe 
+<https://email.mongodb.com/s/eh/tK5GQ_gPeKNlWE4A3W24mObtQh5i6OHwUOVonEZQlhZWIZSNjjFTkmbztbId7gCJlyE20AqdKvdMr5sg0_yWluFkvDMb3BV9LPd-eHtTi0T2f1gKrC0pFuIrTXXkMKmYlfaLjsy5VaWZNHPbLVgv4q8jU5K-MzNkNJYgz_nuHoRFrP_2pFfwQu7UieZC9FzEr82HH176BdBnBo79IjQU3Wq7dcPCSrg6HXVFmoAhaV6lO6TczqVq/rGxxDJb_bCvUuW3YdSWC6CY9zn0nX0tC/10>
+2025-07-11 13:53:43 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197ef0685b7e73a3 in 0.05s
+2025-07-11 13:53:44 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197ef0685b7e73a3 marked as read
+2025-07-11 13:53:45 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197ef0685b7e73a3
+2025-07-11 13:53:45 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Railway Presses the Recharge Button Railway Logo
+
+***************
+Changelog Time!
+***************
+
+It's Friday and you know what that means! Here's a summary of the stuff we shipped this week:
+
+* Nits Thread
+* Join the Team
+* 2Q25 Highlights
+
+Read the changelog ( https://railway.com/changelog/2025-07-04-recharge?utm_campaign=Changelog&utm_content=Changelog+Template&utm_medium=email_action&utm_source=customer.io )
+
+You can reply to this email with thoughts/feedback on the changes we're making or even better, join us on our Discord ( https://discord.com/invite/xAm2w6g?utm_campaign=Changelog&utm_content=Changelog+Template&utm_medium=email_action&utm_source=customer.io )!
+
+Regards,
+
+Your friends at Railway
+
+Unsubscribe from marketing emails ( https://railway.com/preferences?token=b6daa21b-7712-48a8-905a-0fec667a329c&utm_campaign=Changelog&utm_content=Changelog+Template&utm_medium=email_action&utm_source=customer.io )
+
+© 2025 Railway Corp. All rights reserved.
+2025-07-11 13:53:45 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197d5f7b87c58396 in 0.05s
+2025-07-11 13:53:45 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197d5f7b87c58396 marked as read
+2025-07-11 13:53:47 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197d5f7b87c58396
+2025-07-11 13:53:47 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Week 1 in Notion ✔️ ( https://www.notion.so/?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+5+-+Checklist+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Integrate everything else. Connect your tools. ( https://www.notion.so/gallery/?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+5+-+Checklist+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Your first week in Notion
+
+There's something satisfying about checking something off your to-do list. And you just finished your first week in Notion!
+
+Here's how it went:
+
+You created a connected workspace
+
+You created your first page
+
+You invited more teammates
+
+You tried out Notion's desktop app
+
+You tried out Notion's mobile app 
+
+You're almost there! Let's keep going.
+
+There's a lot you can do in your new workspace. Browse these templates to get ideas for what Notion can do, and create systems for your team to work even faster.
+
+Pick a template ( https://www.notion.so/gallery/categories?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+5+-+Checklist+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Thanks,
+
+The Notion Team
+
+( https://www.notion.so/?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+5+-+Checklist+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Write, plan, organize.
+In one AI-powered workspace.
+
+Notion ( https://www.notion.so/?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+5+-+Checklist+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+Notion Mail ( https://www.notion.com/product/mail?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+5+-+Checklist+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+Notion Calendar ( https://www.notion.com/product/calendar?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+5+-+Checklist+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+685 Market Street, San Francisco, CA 94105
+
+Don't want this kind of email? Unsubscribe from Product Updates and Releases ( http://track.customer.io/unsubscribe/dgTv2AUBAKOuileiropXAZfV5DcVR0DUjUW0Ppcmwg== ).
+Manage preferences ( http://track.customer.io/manage_subscription_preferences/dgTv2AUBAKOuileiropXAZfV5DcVR0DUjUW0Ppcmwg== ) Privacy Policy ( https://www.notion.so/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+5+-+Checklist+-+Rebranded&utm_medium=email_action&utm_source=customer.io ) View in browser ( http://track.customer.io/deliveries/dgTv2AUBAKOuileiropXAZfV5DcVR0DUjUW0Ppcmwg== )
+2025-07-11 13:53:47 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197d5e43fd24f0cd in 0.06s
+2025-07-11 13:53:48 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197d5e43fd24f0cd marked as read
+2025-07-11 13:53:49 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197d5e43fd24f0cd
+2025-07-11 13:53:49 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Security alert [image: Google]
+New sign-in to your account
+
+
+kinjalmomaya3@gmail.com
+We noticed a new sign-in to your Google Account. If this was you, you don’t
+need to do anything. If not, we’ll help you secure your account.
+Check activity
+<https://accounts.google.com/AccountChooser?Email=kinjalmomaya3@gmail.com&continue=https://myaccount.google.com/alert/nt/1751516627000?rfn%3D325%26rfnc%3D1%26eid%3D-6488658739625495389%26et%3D0>
+You can also see security activity at
+https://myaccount.google.com/notifications
+You received this email to let you know about important changes to your
+Google Account and services.
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+
+2025-07-11 13:53:49 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197ce86c406244e4 in 0.20s
+2025-07-11 13:53:50 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197ce86c406244e4 marked as read
+2025-07-11 13:53:51 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197ce86c406244e4
+2025-07-11 13:53:51 | INFO     | __main__:_process_email_batch:128 - Batch processing completed: 10 successful, 0 failed
+2025-07-11 13:54:51 | INFO     | __main__:_process_email_batch:100 - Processing email batch...
+2025-07-11 13:54:56 | INFO     | src.services.gmail_service:get_emails:84 - Retrieved 10 emails from Gmail
+2025-07-11 13:54:56 | INFO     | __main__:_process_email_batch:112 - Found 10 unread emails
+2025-07-11 13:54:56 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Your Google Account was recovered successfully [image: Google]
+Account recovered successfully
+
+
+kinjalmomaya3@gmail.com
+Welcome back to your accountIf you suspect you were locked out of your
+account because of changes made by someone else, you should review &
+protect your account.
+<https://accounts.google.com/AccountChooser?Email=kinjalmomaya3@gmail.com&continue=https://myaccount.google.com/secure-account?utm_source%3Demail%26utm_medium%3Demail%26utm_campaign%3Dph%26src%3D14%26aneid%3D8915269996494258723>
+You received this email to let you know about important changes to your
+Google Account and services.
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+
+2025-07-11 13:54:56 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197ce86c240e6484 in 0.22s
+2025-07-11 13:54:57 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197ce86c240e6484 marked as read
+2025-07-11 13:54:58 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197ce86c240e6484
+2025-07-11 13:54:58 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Security alert [image: Google]
+Your password was changed
+
+
+kinjalmomaya3@gmail.com
+The password for your Google account kinjalmomaya3@gmail.com was changed.
+If you didn't change it, you should recover your account
+<https://accounts.google.com/RecoverAccount?fpOnly=1&source=ancp&Email=kinjalmomaya3@gmail.com&et=0>
+.
+You can also see security activity at
+https://myaccount.google.com/notifications
+You received this email to let you know about important changes to your
+Google Account and services.
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+
+2025-07-11 13:54:58 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197ce86b9b549d32 in 0.23s
+2025-07-11 13:54:59 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197ce86b9b549d32 marked as read
+2025-07-11 13:54:59 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197ce86b9b549d32
+2025-07-11 13:54:59 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: The desktop app is faster Notion logo ( https://www.notion.so/?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+4+-+Apps+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Download Notion ( https://www.notion.so/mobile?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+4+-+Apps+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Take Notion with you on all of your devices
+
+Want to get even more done with Notion? Download the desktop and mobile apps.
+
+When inspiration strikes, get it out of your brain and into your Notion workspace on iOS & Android.
+
+And when it's time for deep work, Notion's Mac & Windows apps help you stay focused on the task at hand.
+
+Download Notion on mobile ( https://www.notion.so/mobile?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+4+-+Apps+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Download Notion on desktop ( https://www.notion.so/desktop?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+4+-+Apps+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Thanks,
+
+The Notion Team
+
+P.S. The Notion Calendar app is now available to download for Android ( https://www.notion.so/product/calendar/download/android?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+4+-+Apps+-+Rebranded&utm_medium=email_action&utm_source=customer.io ) or download for iOS ( https://www.notion.so/product/calendar/download/ios?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+4+-+Apps+-+Rebranded&utm_medium=email_action&utm_source=customer.io ).
+
+Write, plan, organize.
+In one AI-powered workspace.
+
+Notion ( https://www.notion.so/?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+4+-+Apps+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+Notion Mail ( https://www.notion.com/product/mail?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+4+-+Apps+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+Notion Calendar ( https://www.notion.com/product/calendar?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+4+-+Apps+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+685 Market Street, San Francisco, CA 94105
+
+Don't want this kind of email? Unsubscribe from Product Updates and Releases ( http://track.customer.io/unsubscribe/dgTv2AUBAKOuileiropXAZfLl3bdJQ39CY2V2QFYCA== ).
+Manage preferences ( http://track.customer.io/manage_subscription_preferences/dgTv2AUBAKOuileiropXAZfLl3bdJQ39CY2V2QFYCA== ) Privacy Policy ( https://www.notion.so/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+4+-+Apps+-+Rebranded&utm_medium=email_action&utm_source=customer.io ) View in browser ( http://track.customer.io/deliveries/dgTv2AUBAKOuileiropXAZfLl3bdJQ39CY2V2QFYCA== )
+2025-07-11 13:54:59 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197cb977bcdee6dc in 0.06s
+2025-07-11 13:55:00 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197cb977bcdee6dc marked as read
+2025-07-11 13:55:01 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197cb977bcdee6dc
+2025-07-11 13:55:01 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Use your data model to your application's advantage Learn data modeling best practices.
+
+
+
+
+
+Create an effective data model in MongoDB
+
+
+In MongoDB, storing related data that’s frequently accessed together isn’t 
+just recommended, it’s critical for query performance. MongoDB’s document model 
+encourages embedding to deliver simpler, faster queries and low-latency 
+performance at scale, making it easier to represent your query access patterns 
+intuitively and similar to how you do in code, as intuitive objects.
+
+
+
+Plus, you still get the structure and data integrity 
+<https://www.mongodb.com/docs/manual/data-modeling/data-consistency/> you 
+expect thanks to schema validation, multi-document ACID transactions, and more.
+
+
+
+Want to build confidence with MongoDB’s approach to data modeling? MongoDB 
+Skill Badges are free credentials designed to help you quickly learn and 
+validate your MongoDB skills in just 60–90 minutes.
+
+
+
+Start learning and earn your badge  <https://learn.mongodb.com/skills>
+
+
+
+ 
+
+MongoDB Data Modeling Path
+
+
+We’ve put together a free course 
+<https://learn.mongodb.com/learning-paths/data-modeling-for-mongodb> that goes 
+through modeling your data using this dynamic document model. You’ll learn:
+
+ * What data modeling looks like in MongoDB
+ * How to identify your application’s database workload
+ * Steps for applying schema design patterns to an application
+ * How to optimize performance and avoid common anti-patterns
+ * How good data modeling decisions can reduce costs by limiting unnecessary 
+reads/writes and optimizing resource usage
+Bonus: Complete the learning path and you'll automatically score a 50% 
+discount on the newMongoDB Associate Data Modeler certification exam 
+<https://learn.mongodb.com/pages/mongodb-associate-data-modeler-exam>.
+
+Register for the course now  
+<https://learn.mongodb.com/learning-paths/data-modeling-for-mongodb>
+
+
+
+ 
+
+Additional resources
+
+
+ Dive into an enlightening episode of MongoDB Office Hours 
+<https://www.youtube.com/watch?v=sq2Eo3qclaY> where Michael Lynn and Rick 
+Houlihan demystify the journey from relational to document-oriented databases.
+
+
+
+ Check out Atlas Learning Hub 
+<https://www.mongodb.com/resources/product/platform/atlas-learning-hub#dataModeling>
+ for videos, documentation, and courses on our most requested topics that suit 
+your learning style and set your application up for long-term success.
+
+
+If you have more complex requirements, reach out to MongoDB Support 
+<https://cloud.mongodb.com/go?l=https%3A%2F%2Fcloud.mongodb.com%2Fv2%2F%3Cproject%3E%23%2Finfo%2Fsupport>
+.
+
+
+ 
+
+
+
+
+
+
+ <https://www.linkedin.com/company/mongodbinc/>  <https://twitter.com/mongodb> 
+ <https://youtube.com/user/mongodb>  <https://www.instagram.com/mongodb>  
+<https://www.mongodb.com/developer/> 
+
+Copyright © 2025 MongoDB, All rights reserved.
+1633 Broadway Floor 38, New York, NY 10019
+view in browser 
+<https://email.mongodb.com/s/vb/T4taTPsbTHYjhvdnnBmsioCX7l4wtH5hB-N3n8W_ZH-9MLISRw6qr7LHQTS2OYgN2L_eWC905M42mX6kqf2Usr0-nlJXgnSCJn3ptglBpN6pGqVgLIM7YiExYNbwyPv5qIVgzPtlMqSlcEb-Jg/MNSuDvmWG88I7M79BFyg_-98FvcYPVku/10>
+ orunsubscribe 
+<https://email.mongodb.com/s/eh/TF4eEkS8WQct2DuZG8-AKvZyR2th4gD2lhdjqHL3bFgssXzZ5G7uov22zZWheyRXQj4W6TGM8UcBJYDFQPggBL_czQoS3ArCSyMqMdOGbzf2H7dvbaH_prSxhTo0q31LyqgjYGtg-4U3o3smfA-NxKSD7TxM-x74g33lCM49Qtp2tq3-Mdw9dkkri5vPXq6l3pu2ZKBLSSOCru3fR6pElfy5NQnLtoMD-EyktLuqGmOPn3QXvgNN/kz-brZZxMe2t62sQCjnZqUdXYUs7U0lx/10>
+2025-07-11 13:55:01 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197cafa03bef7d78 in 0.05s
+2025-07-11 13:55:02 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197cafa03bef7d78 marked as read
+2025-07-11 13:55:03 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197cafa03bef7d78
+2025-07-11 13:55:03 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Security alert for kinjalmomaya99@gmail.com This is a copy of a security alert sent to kinjalmomaya99@gmail.com.
+kinjalmomaya3@gmail.com is the recovery email for this account. If you
+don't recognize this account, remove
+<https://accounts.google.com/AccountDisavow?adt=AOX8kirDNvMVo7wk1mb_XigoxbzGibjgAl0fDKCfYDZBb113edvD8uqjKc73GcxOyI6QZw&rfn=325>
+it.
+[image: Google]
+A new sign-in on Apple iPhone
+
+
+kinjalmomaya99@gmail.com
+We noticed a new sign-in to your Google Account on a Apple iPhone device.
+If this was you, you don’t need to do anything. If not, we’ll help you
+secure your account.
+Check activity
+<https://accounts.google.com/AccountChooser?Email=kinjalmomaya99@gmail.com&continue=https://myaccount.google.com/alert/nt/1751340097733?rfn%3D325%26rfnc%3D1%26eid%3D-5574700056689562165%26et%3D1>
+You can also see security activity at
+https://myaccount.google.com/notifications
+You received this email to let you know about important changes to your
+Google Account and services.
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+
+2025-07-11 13:55:03 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197c40129161c034 in 0.05s
+2025-07-11 13:55:03 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197c40129161c034 marked as read
+2025-07-11 13:55:04 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197c40129161c034
+2025-07-11 13:55:04 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: [Evolve By Masai] Summary A brief summary of [Evolve By Masai][1] since 2025-06-23 17:27:15 UTC
+
+1 New Topics
+1 Unread Notifications
+433 New Users
+
+--------------------------------------------------------------------------------
+
+### Popular Topics
+
+[Way forward for evolve by masai][2]
+
+ Hey Folks, 
+What’s changing? 
+Our current forum on Discourse will be closing soon. We’re moving the whole community to a new Discord server so everyone can connect faster and chat in real time. 
+Key dates to remember 
+
+Monday, 30 June 2025 – Discord launches inside your LMS.
+After that, we’ll start winding down the Discourse site and shut it off completely post discord rollout.
+
+What you need to do 
+
+On 30 June, look for the Discord invite link in your LMS dashboard.
+Click the link, join the new server, and explore the channels.
+Say hello so your friends know you made it!
+
+Why Discord? 
+
+Instant discussions.
+Easy voice, video, and screen-sharing.
+Lot of Fun events and activities already in the works.
+
+We’re excited about this next step and can’t wait to see you on Discord. Lots of fresh ideas and activities are coming your way—stay tuned! 
+See you there! 
+— Team Masai
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+[1]: https://evolve-by-masai.discourse.group/
+[2]: https://evolve-by-masai.discourse.group/t/way-forward-for-evolve-by-masai/10173
+
+
+
+This summary is sent from [Evolve By Masai][1] when we haven't seen you in a while. Change [your email settings][3], or [click here][4] to unsubscribe.
+
+[3]: https://evolve-by-masai.discourse.group/my/preferences/emails
+[4]: https://evolve-by-masai.discourse.group/email/unsubscribe/6b325083a2300fddbdf97e2eb649a4b03a38d428a7d7c3309ec258cb4efdfe25
+
+
+
+
+2025-07-11 13:55:04 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197c1e606ee66542 in 0.05s
+2025-07-11 13:55:05 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197c1e606ee66542 marked as read
+2025-07-11 13:55:06 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197c1e606ee66542
+2025-07-11 13:55:06 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Manage your work and time together ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏
+ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ͏  ͏  ͏  ͏  ͏  ͏­ ­ ­ ­ ­
+­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ 
+
+( https://www.notion.so/?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+3+-+Notion+Calendar+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Hi Kinjal,
+
+What if there was a calendar app that fully integrated with your Notion workspace?
+
+Meet Notion Calendar. It’s a better way to manage time across your work and life. All your events, to-dos, and notes in one place with all the features you’d want in a calendar app.
+
+To get started, just connect your Google Calendar ( http://notion.so/calendar/signup?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+3+-+Notion+Calendar+-+Rebranded&utm_medium=email_action&utm_source=customer.io ).
+
+Get Notion Calendar ( http://notion.so/calendar/signup?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+3+-+Notion+Calendar+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Sync all your calendars
+
+Connect multiple Google accounts to manage all your events in one place. Prevent overlaps with auto-blocking.
+
+Sync all your calendars ( http://notion.so/calendar/signup?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+3+-+Notion+Calendar+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Sync dates in Notion to your calendar
+
+View and manage any database item from your workspace in Notion Calendar, like travel itineraries, to-dos, habit trackers, and class schedules.
+
+Sync dates in Notion to your calendar ( http://notion.so/calendar/signup?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+3+-+Notion+Calendar+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Link Notion pages to events
+
+Connect or create Notion docs so you have the full details for each event.
+
+Link Notion pages to events ( http://notion.so/calendar/signup?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+3+-+Notion+Calendar+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Built-in scheduling tool
+
+No need for a separate scheduling app. Share your availability and allow others to book time.
+
+Built-in scheduling tool ( http://notion.so/calendar/signup?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+3+-+Notion+Calendar+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Stay focused with calendar in your menu bar
+
+Download the desktop app to see your day’s schedule, join meetings, and open attachments from your computer’s menu bar.
+
+Stay focused with calendar in your menu bar ( https://www.notion.so/product/calendar/download/desktop?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+3+-+Notion+Calendar+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Get Notion Calendar ( http://notion.so/calendar/signup?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+3+-+Notion+Calendar+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+The Notion team
+
+P.S. Take your productivity on the go with the Notion Calendar app — now available to download for Android ( https://www.notion.so/product/calendar/download/android?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+3+-+Notion+Calendar+-+Rebranded&utm_medium=email_action&utm_source=customer.io ) or download for iOS ( https://www.notion.so/product/calendar/download/ios?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+3+-+Notion+Calendar+-+Rebranded&utm_medium=email_action&utm_source=customer.io ).
+
+Write, plan, organize.
+In one AI-powered workspace.
+
+Notion ( https://www.notion.so/?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+3+-+Notion+Calendar+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+Notion Mail ( https://www.notion.com/product/mail?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+3+-+Notion+Calendar+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+Notion Calendar ( https://www.notion.com/product/calendar?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+3+-+Notion+Calendar+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+685 Market Street, San Francisco, CA 94105
+
+Don't want this kind of email? Unsubscribe from Product Updates and Releases ( http://track.customer.io/unsubscribe/dgTv2AUBAKOuileiropXAZfBSq6OguuIYY580JOVSQ== ).
+Manage preferences ( http://track.customer.io/manage_subscription_preferences/dgTv2AUBAKOuileiropXAZfBSq6OguuIYY580JOVSQ== ) Privacy Policy ( https://www.notion.so/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+3+-+Notion+Calendar+-+Rebranded&utm_medium=email_action&utm_source=customer.io ) View in browser ( http://track.customer.io/deliveries/dgTv2AUBAKOuileiropXAZfBSq6OguuIYY580JOVSQ== )
+2025-07-11 13:55:06 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197c14aba2519b83 in 0.07s
+2025-07-11 13:55:06 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197c14aba2519b83 marked as read
+2025-07-11 13:55:07 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197c14aba2519b83
+2025-07-11 13:55:07 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Replace your AI chatbot with Notion AI Notion logo ( https://www.notion.so/?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+2+-+AI+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Hi Kinjal,
+
+As you get up and running, we have a few tips to help make the most of Notion. Notion AI is here to help you spark creativity, unlock productivity and live smarter:
+
+Brainstorm and get inspired
+
+No more dreading a blank page. Ask AI to write up some ideas to get you started! Let it know some background and your goals to see how it would tackle a task or project.
+
+Campaign brainstorm ( https://www.notion.so/gallery/categories/ai?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+2+-+AI+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Summarize and get next steps
+
+Free up time to think about what comes next instead of what happened. AI can create a summary of a page or project and outline next steps, instantly.
+
+Summarize ( https://www.notion.so/gallery/categories/ai?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+2+-+AI+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Check grammar and edit tone
+
+Instead of pulling up an AI chatbot or browser extension, you can write and edit where you’re working. Make your tone more confident or easily check text to ensure perfect spelling and grammar. Just highlight a selection and click “Ask AI”.
+
+Change tone ( https://www.notion.so/gallery/categories/ai?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+2+-+AI+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Try it out ( https://www.notion.so/gallery/categories/ai?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+2+-+AI+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Thanks
+
+The Notion Team
+
+PS. Want to learn more about Notion AI? Check out the Notion Academy course here ( https://www.notion.so/help/notion-academy/lesson/what-is-artificial-intelligence?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+2+-+AI+-+Rebranded&utm_medium=email_action&utm_source=customer.io ).
+
+Write, plan, organize.
+In one AI-powered workspace.
+
+Notion ( https://www.notion.so/?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+2+-+AI+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+Notion Mail ( https://www.notion.com/product/mail?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+2+-+AI+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+Notion Calendar ( https://www.notion.com/product/calendar?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+2+-+AI+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+685 Market Street, San Francisco, CA 94105
+
+Don't want this kind of email? Unsubscribe from Product Updates and Releases ( http://track.customer.io/unsubscribe/dgTv2AUBAKOuileiropXAZe2_eZNP8QUmNlnx6SKMw== ).
+Manage preferences ( http://track.customer.io/manage_subscription_preferences/dgTv2AUBAKOuileiropXAZe2_eZNP8QUmNlnx6SKMw== ) Privacy Policy ( https://www.notion.so/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+2+-+AI+-+Rebranded&utm_medium=email_action&utm_source=customer.io ) View in browser ( http://track.customer.io/deliveries/dgTv2AUBAKOuileiropXAZe2_eZNP8QUmNlnx6SKMw== )
+2025-07-11 13:55:07 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197b6fde976e49a0 in 0.05s
+2025-07-11 13:55:08 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197b6fde976e49a0 marked as read
+2025-07-11 13:55:09 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197b6fde976e49a0
+2025-07-11 13:55:09 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Metal Migration Complete, Pricing Page Refresh, Affiliate Program Launch Railway Logo
+
+***************
+Changelog Time!
+***************
+
+It's Friday and you know what that means! Here's a summary of the stuff we shipped this week:
+
+* Metal Migration Complete
+* Pricing Page Refresh
+* Affiliate Program Launch
+* Fixes and Improvements
+
+Read the changelog ( https://railway.com/changelog/2025-06-27-metal-migration-complete?utm_campaign=Changelog&utm_content=Changelog+Template&utm_medium=email_action&utm_source=customer.io )
+
+You can reply to this email with thoughts/feedback on the changes we're making or even better, join us on our Discord ( https://discord.com/invite/xAm2w6g?utm_campaign=Changelog&utm_content=Changelog+Template&utm_medium=email_action&utm_source=customer.io )!
+
+Regards,
+
+Your friends at Railway
+
+Unsubscribe from marketing emails ( https://railway.com/preferences?token=b6daa21b-7712-48a8-905a-0fec667a329c&utm_campaign=Changelog&utm_content=Changelog+Template&utm_medium=email_action&utm_source=customer.io )
+
+© 2025 Railway Corp. All rights reserved.
+2025-07-11 13:55:09 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197b46fc2544b209 in 0.05s
+2025-07-11 13:55:09 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197b46fc2544b209 marked as read
+2025-07-11 13:55:10 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197b46fc2544b209
+2025-07-11 13:55:10 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Your 3 keys for building in Notion Notion logo ( https://www.notion.so/?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1B+-+Subpage+Bonus+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Hi Kinjal,
+
+Now that you’re up and running, we wanted to tell you about three features that will power your Notion workflows:
+
+1) Slash commands
+
+Type / to pull up a menu that lets you add countless content types — from text and images to powerful databases.
+
+Task list ( http://www.notion.so/f4cc8b01760d4930b9bfde36a7295f6d?duplicate=true&from=notion_template_gallery&workspaceId=7c4e6d53-bf01-8168-8f5a-000379677db1&utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1B+-+Subpage+Bonus+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+2) Subpages
+
+There are no folders in Notion. Instead, you can organize pages inside pages (inside pages). Here’s how to create subpages.
+
+Subpages ( http://www.notion.so/f4cc8b01760d4930b9bfde36a7295f6d?duplicate=true&from=notion_template_gallery&workspaceId=7c4e6d53-bf01-8168-8f5a-000379677db1&utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1B+-+Subpage+Bonus+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+3) Sidebar
+
+The left sidebar is where you’ll organize your content. You can create and arrange pages, import content from other tools, and use templates.
+
+Sidebar ( http://www.notion.so/f4cc8b01760d4930b9bfde36a7295f6d?duplicate=true&from=notion_template_gallery&workspaceId=7c4e6d53-bf01-8168-8f5a-000379677db1&utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1B+-+Subpage+Bonus+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Try these features out for yourself! Click on the link below to start a guided tutorial in your workspace:
+
+Try these 3 features ( https://www.notion.so/f4cc8b01760d4930b9bfde36a7295f6d?duplicate=true&from=notion_template_gallery&workspaceId=7c4e6d53-bf01-8168-8f5a-000379677db1&utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1B+-+Subpage+Bonus+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Thanks
+
+The Notion Team
+
+Write, plan, organize.
+In one AI-powered workspace.
+
+Notion ( https://www.notion.so/?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1B+-+Subpage+Bonus+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+Notion Mail ( https://www.notion.com/product/mail?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1B+-+Subpage+Bonus+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+Notion Calendar ( https://www.notion.com/product/calendar?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1B+-+Subpage+Bonus+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+685 Market Street, San Francisco, CA 94105
+
+Don't want this kind of email? Unsubscribe from Product Updates and Releases ( http://track.customer.io/unsubscribe/dgTv2AUBAKOuileiropXAZex134FqkvO25Y0fmzG-A== ).
+Manage preferences ( http://track.customer.io/manage_subscription_preferences/dgTv2AUBAKOuileiropXAZex134FqkvO25Y0fmzG-A== ) Privacy Policy ( https://www.notion.so/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1B+-+Subpage+Bonus+-+Rebranded&utm_medium=email_action&utm_source=customer.io ) View in browser ( http://track.customer.io/deliveries/dgTv2AUBAKOuileiropXAZex134FqkvO25Y0fmzG-A== )
+2025-07-11 13:55:10 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197b1d7816bf88f8 in 0.05s
+2025-07-11 13:55:11 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197b1d7816bf88f8 marked as read
+2025-07-11 13:55:12 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197b1d7816bf88f8
+2025-07-11 13:55:12 | INFO     | __main__:_process_email_batch:128 - Batch processing completed: 10 successful, 0 failed
+2025-07-11 13:56:12 | INFO     | __main__:_process_email_batch:100 - Processing email batch...
+2025-07-11 13:56:17 | INFO     | src.services.gmail_service:get_emails:84 - Retrieved 10 emails from Gmail
+2025-07-11 13:56:17 | INFO     | __main__:_process_email_batch:112 - Found 10 unread emails
+2025-07-11 13:56:17 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Security alert for kinjalmomaya99@gmail.com This is a copy of a security alert sent to kinjalmomaya99@gmail.com.
+kinjalmomaya3@gmail.com is the recovery email for this account. If you
+don't recognize this account, remove
+<https://accounts.google.com/AccountDisavow?adt=AOX8kiolenaBNUuG9Jwg5BkcEAUUThQr6fWv_GCzzQXPk-lEkFiVC-fNoiitpTTJFFdeCw&rfn=325>
+it.
+[image: Google]
+A new sign-in on Apple iPhone
+
+
+kinjalmomaya99@gmail.com
+We noticed a new sign-in to your Google Account on a Apple iPhone device.
+If this was you, you don’t need to do anything. If not, we’ll help you
+secure your account.
+Check activity
+<https://accounts.google.com/AccountChooser?Email=kinjalmomaya99@gmail.com&continue=https://myaccount.google.com/alert/nt/1751034382695?rfn%3D325%26rfnc%3D1%26eid%3D1795379079430738851%26et%3D1>
+You can also see security activity at
+https://myaccount.google.com/notifications
+You received this email to let you know about important changes to your
+Google Account and services.
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+
+2025-07-11 13:56:17 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197b1c852183bd99 in 0.06s
+2025-07-11 13:56:18 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197b1c852183bd99 marked as read
+2025-07-11 13:56:19 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197b1c852183bd99
+2025-07-11 13:56:19 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Security alert for kinjalmomaya99@gmail.com This is a copy of a security alert sent to kinjalmomaya99@gmail.com.
+kinjalmomaya3@gmail.com is the recovery email for this account. If you
+don't recognize this account, remove
+<https://accounts.google.com/AccountDisavow?adt=AOX8kioj4g3EP1sMlxyOFvA8QYan2OzBjoUMkDJIvqtFU1C46jI_jIOOV_V_Mw6cMR5wHQ&rfn=1>
+it.
+[image: Google]
+Your password was changed
+
+
+kinjalmomaya99@gmail.com
+The password for your Google account kinjalmomaya99@gmail.com was changed.
+If you didn't change it, you should recover your account
+<https://accounts.google.com/RecoverAccount?fpOnly=1&source=ancp&Email=kinjalmomaya99@gmail.com&et=1>
+.
+You can also see security activity at
+https://myaccount.google.com/notifications
+You received this email to let you know about important changes to your
+Google Account and services.
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+
+2025-07-11 13:56:19 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197b1c84f6e3e021 in 0.05s
+2025-07-11 13:56:19 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197b1c84f6e3e021 marked as read
+2025-07-11 13:56:22 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197b1c84f6e3e021
+2025-07-11 13:56:22 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Your Google Account was recovered successfully This is a copy of a security alert sent to kinjalmomaya99@gmail.com.
+kinjalmomaya3@gmail.com is the recovery email for this account. If you
+don't recognize this account, remove
+<https://accounts.google.com/AccountDisavow?adt=AOX8kirWhy_DRbFI68179k9VTB25mOPL6bk6JiOtw7mNw8Nq84VeO2V3Is0ILPdPqkuA9Q&rfn=264>
+it.
+[image: Google]
+Account recovered successfully
+
+
+kinjalmomaya99@gmail.com
+Welcome back to your accountIf you suspect you were locked out of your
+account because of changes made by someone else, you should review &
+protect your account.
+<https://accounts.google.com/AccountChooser?Email=kinjalmomaya99@gmail.com&continue=https://myaccount.google.com/secure-account?utm_source%3Demail%26utm_medium%3Demail%26utm_campaign%3Dph%26src%3D14%26aneid%3D8087866988351686163>
+You received this email to let you know about important changes to your
+Google Account and services.
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+
+2025-07-11 13:56:22 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197b1c84c22b41c2 in 0.05s
+2025-07-11 13:56:23 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197b1c84c22b41c2 marked as read
+2025-07-11 13:56:24 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197b1c84c22b41c2
+2025-07-11 13:56:24 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Organize your life, one template at a time Notion logo ( https://www.notion.so/?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1+-+Templates+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Welcome to Notion. Become your most productive self. ( https://www.notion.so/gallery/categories/personal?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1+-+Templates+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Hi Kinjal,
+
+Welcome to Notion! Over the next few days, we’re going to share tips and tricks on how to make the most out of Notion and unlock your most productive self.
+
+Think of Notion as your digital headquarters, where you can write, plan and get organized with AI at your side. From home info to habit trackers, daily schedules and to-do lists, Notion’s personal templates have all you need to feel organized and
+productive.
+
+Get started with one of our suggested templates below:
+
+Find your template ( https://www.notion.so/gallery/categories/personal?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1+-+Templates+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+Thanks
+
+The Notion Team
+
+PS. Want to learn more about Notion AI? Check out the Notion Academy course here ( https://www.notion.so/help/notion-academy/lesson/what-is-artificial-intelligence?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1+-+Templates+-+Rebranded&utm_medium=email_action&utm_source=customer.io ).
+
+Write, plan, organize.
+In one AI-powered workspace.
+
+Notion ( https://www.notion.so/?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1+-+Templates+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+Notion Mail ( https://www.notion.com/product/mail?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1+-+Templates+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+Notion Calendar ( https://www.notion.com/product/calendar?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1+-+Templates+-+Rebranded&utm_medium=email_action&utm_source=customer.io )
+
+685 Market Street, San Francisco, CA 94105
+
+Don't want this kind of email? Unsubscribe from Product Updates and Releases ( http://track.customer.io/unsubscribe/dgTv2AUBAKOuileiropXAZessR57KvMLJS5lDaR_2A== ).
+Manage preferences ( http://track.customer.io/manage_subscription_preferences/dgTv2AUBAKOuileiropXAZessR57KvMLJS5lDaR_2A== ) Privacy Policy ( https://www.notion.so/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091?utm_campaign=%5BUpdated%5D+Creator+Onboarding+2025&utm_campaignid=652&utm_campaigntype=transactional&utm_content=Email+1+-+Templates+-+Rebranded&utm_medium=email_action&utm_source=customer.io ) View in browser ( http://track.customer.io/deliveries/dgTv2AUBAKOuileiropXAZessR57KvMLJS5lDaR_2A== )
+2025-07-11 13:56:24 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197acb1236fa3da1 in 0.05s
+2025-07-11 13:56:25 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197acb1236fa3da1 marked as read
+2025-07-11 13:56:27 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197acb1236fa3da1
+2025-07-11 13:56:27 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Security alert for kinjalmomaya99@gmail.com This is a copy of a security alert sent to kinjalmomaya99@gmail.com.
+kinjalmomaya3@gmail.com is the recovery email for this account. If you
+don't recognize this account, remove
+<https://accounts.google.com/AccountDisavow?adt=AOX8kirZzJvMV7_atQL7Tgk7mc4xA9jkFbErOektsfqouaOK8Mv7-An1gyEDsNFH4ynA7g&rfn=40>
+it.
+[image: Google]
+Google Account PIN changed
+
+
+kinjalmomaya99@gmail.com
+Your Google Account PIN was just changed. Your PIN is the 4-digit code you
+created for your account. Some Google products and services ask you for it
+to be sure it's you. Learn more <https://support.google.com/accounts?p=pin>.
+
+If you didn't change it, you should check what happened.
+Check activity
+<https://accounts.google.com/AccountChooser?Email=kinjalmomaya99@gmail.com&continue=https://myaccount.google.com/alert/nt/1750740162171?rfn%3D40%26rfnc%3D1%26eid%3D-2692877624537028354%26et%3D1>
+You can also see security activity at
+https://myaccount.google.com/notifications
+You received this email to let you know about important changes to your
+Google Account and services.
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+
+2025-07-11 13:56:27 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197a03ee62634864 in 0.05s
+2025-07-11 13:56:27 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197a03ee62634864 marked as read
+2025-07-11 13:56:28 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197a03ee62634864
+2025-07-11 13:56:28 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Security alert for kinjalmomaya99@gmail.com This is a copy of a security alert sent to kinjalmomaya99@gmail.com.
+kinjalmomaya3@gmail.com is the recovery email for this account. If you
+don't recognize this account, remove
+<https://accounts.google.com/AccountDisavow?adt=AOX8kirvtF-xAatQtjeEm7s4JNWd-fYq4AzaLfJay87UwAppQ3OTQB0dq7w0_CK9gF0rpA&rfn=363>
+it.
+[image: Google]
+A passkey was removed from your account
+
+
+kinjalmomaya99@gmail.com
+If you didn’t remove a passkey, someone might be using your account. Check
+and secure your account now.
+Check activity
+<https://accounts.google.com/AccountChooser?Email=kinjalmomaya99@gmail.com&continue=https://myaccount.google.com/alert/nt/1750740110525?rfn%3D363%26rfnc%3D1%26eid%3D2674891278838446628%26et%3D1>
+You can also see security activity at
+https://myaccount.google.com/notifications
+You received this email to let you know about important changes to your
+Google Account and services.
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+
+2025-07-11 13:56:28 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197a03e0f21f7ae0 in 0.05s
+2025-07-11 13:56:29 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197a03e0f21f7ae0 marked as read
+2025-07-11 13:56:30 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197a03e0f21f7ae0
+2025-07-11 13:56:30 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Security alert for kinjalmomaya99@gmail.com This is a copy of a security alert sent to kinjalmomaya99@gmail.com.
+kinjalmomaya3@gmail.com is the recovery email for this account. If you
+don't recognize this account, remove
+<https://accounts.google.com/AccountDisavow?adt=AOX8kiqamh2RJa44LNSLkCPUOq7kEoJVGqBJvPFv5bOuPetGNXfzehZQ6vQAG1_zt00KpA&rfn=1>
+it.
+[image: Google]
+Your password was changed
+
+
+kinjalmomaya99@gmail.com
+The password for your Google account kinjalmomaya99@gmail.com was changed.
+If you didn't change it, you should recover your account
+<https://accounts.google.com/RecoverAccount?fpOnly=1&source=ancp&Email=kinjalmomaya99@gmail.com&et=1>
+.
+You can also see security activity at
+https://myaccount.google.com/notifications
+You received this email to let you know about important changes to your
+Google Account and services.
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+
+2025-07-11 13:56:30 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197a03cc3be2503d in 0.05s
+2025-07-11 13:56:32 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197a03cc3be2503d marked as read
+2025-07-11 13:56:33 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197a03cc3be2503d
+2025-07-11 13:56:33 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Deliver up to 4x faster search results for your application Full-text and semantic search in one unified modern database.
+
+
+
+
+
+Atlas Search: Relevance-based search, simplified
+
+
+
+
+Hi Kinjal,
+
+
+
+Atlas Search delivers powerful text and semantic search as a native capability 
+of your database so you can build engaging, modern applications 4x faster at 
+77% lower cost than alternative search solutions.
+
+Try now 
+<https://cloud.mongodb.com/go?l=https%3A%2F%2Fcloud.mongodb.com%2Fv2%2F%3Cproject%3E%23%2Fclusters%2FatlasSearch>
+
+
+
+Why Atlas Search?
+
+ * A unified platform: Seamless integration with your existing MongoDB 
+database means you don't have to stand up and manage a separate sync mechanism
+ * Dedicated hardware: Separate your search workload from your database 
+workloads for high availability.Learn more 
+<https://www.mongodb.com/blog/post/search-nodes-now-public-preview-performance-scale-dedicated-infrastructure>
+. 
+ * Advanced capabilities: Create relevant and intuitive user experiences with 
+full-text and semantic search
+ * Improved latency and query performance: Store operational data and metadata 
+alongside indexed search data for lower query latency
+ * 
+Flexible development workflows: Use the Atlas CLI 
+<https://www.mongodb.com/docs/atlas/cli/current/atlas-cli-deploy-fts/> to 
+manage Atlas Search whether you're working locally or in the cloud
+
+
+
+ Want a preview of how it works? Head over to the Search Demo Builder 
+<https://search-playground.mongodb.com/tools/search-demo-builder/snapshots/new?utm_campaign=em_act_2_search_demo_builder_25_01&utm_source=iterable&utm_medium=email>
+ and effortlessly explore common search features like typo-tolerance and 
+autocomplete through our intuitive visual interface—no need to build an index 
+or write queries from scratch.
+
+
+Think Big, Go Far,
+
+The MongoDB Atlas Team
+
+
+
+
+
+ <https://www.linkedin.com/company/mongodbinc/>  <https://twitter.com/mongodb> 
+ <https://youtube.com/user/mongodb>  <https://www.instagram.com/mongodb>  
+<https://www.mongodb.com/developer/> 
+
+Copyright © 2025 MongoDB, All rights reserved.
+1633 Broadway Floor 38, New York, NY 10019
+view in browser 
+<https://email.mongodb.com/s/vb/OZDNU--pw52T9_GkmomUdVTWN14h_Jcy_NJXHtoQGpshGDNwyrw_jSVfJV2BXiMXIdFD7AyEhqQCJ_-EZF7zA9LVB90pdtIKzX9wCquPmmAiIiMoZEXPXUhLHZUOR1JI5abs7iVh880eRLA0fg/KSdk9_6_uf8bpWC_Nv73MKPmwUm1FZur/10>
+ orunsubscribe 
+<https://email.mongodb.com/s/eh/j40cy-1rI0oe4hAkD_JWkAoLSE5RN8wrYuaksQiYZW-YE5DK-dBwwT4fwzsjvWbRGDi0BuhEk5gb8OKIQZf-YrWQLa_5kqsLa4mpvQ3yEu6r9JkjUmt6gRcbI89VHt7_hzNH6KSXTtq9eAxZndCtqrfVqb6AK02Tz4krnurW_Rjm0Ltgg9QoNvECF9hJX4CkRM6e_N617tIHXk6ZVrF0FjPS3iITpyFq0U4a-kxB9cZjcpEHTfn1/cUjbYWUfmQp7KNzSzaCZ699TqeGbo3sD/10>
+2025-07-11 13:56:33 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 1979ca0baf71e518 in 0.05s
+2025-07-11 13:56:33 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 1979ca0baf71e518 marked as read
+2025-07-11 13:56:34 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 1979ca0baf71e518
+2025-07-11 13:56:34 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Monitoring Beta, Teardowns UI, Template SEO Improvements, New Deletion Rules Railway Logo
+
+***************
+Changelog Time!
+***************
+
+It's Friday and you know what that means! Here's a summary of the stuff we shipped this week:
+
+* Monitoring Beta
+* Deployment Teardown Settings
+* Template SEO Improvements
+* New Deletion Rules
+* Fixes and Improvements
+
+Read the changelog ( https://railway.com/changelog/2025-06-20-monitoring-beta?utm_campaign=Changelog&utm_content=Changelog+Template&utm_medium=email_action&utm_source=customer.io )
+
+You can reply to this email with thoughts/feedback on the changes we're making or even better, join us on our Discord ( https://discord.com/invite/xAm2w6g?utm_campaign=Changelog&utm_content=Changelog+Template&utm_medium=email_action&utm_source=customer.io )!
+
+Regards,
+
+Your friends at Railway
+
+Unsubscribe from marketing emails ( https://railway.com/preferences?token=b6daa21b-7712-48a8-905a-0fec667a329c&utm_campaign=Changelog&utm_content=Changelog+Template&utm_medium=email_action&utm_source=customer.io )
+
+© 2025 Railway Corp. All rights reserved.
+2025-07-11 13:56:34 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 197908cc08ee6d53 in 0.05s
+2025-07-11 13:56:35 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 197908cc08ee6d53 marked as read
+2025-07-11 13:56:36 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 197908cc08ee6d53
+2025-07-11 13:56:36 | INFO     | src.services.policy_service:search_policies:246 - Found 0 policies for query: Developer Digest: New MongoDB University Skill Badges just released! Discover the latest product updates, developer resources, webinars, and more.
+
+
+
+ <https://www.mongodb.com/>
+
+MongoDB Developer Digest
+
+June 2025
+
+
+ 
+
+
+
+Featured content 
+
+
+Flex your MongoDB fluency with new Skill Badges! These digital credentials 
+show your proficiency in key areas of MongoDB technology. Check out our newest 
+releases and start showcasing your skills today.
+
+
+
+
+ <https://learn.mongodb.com/skills>
+
+Indexing Design Fundamentals 
+<https://learn.mongodb.com/courses/indexing-design-fundamentals>
+
+
+
+Learn how to design efficient indexes to speed up queries and reduce resource 
+consumption in MongoDB.
+
+Get your badge  
+<https://learn.mongodb.com/courses/indexing-design-fundamentals>
+
+Sharding Strategies <https://learn.mongodb.com/courses/sharding-strategies>
+
+
+
+Learn how to design, implement, and manage sharded clusters to scale MongoDB 
+horizontally and optimize performance.
+
+Get your badge  <https://learn.mongodb.com/courses/sharding-strategies>
+
+
+
+ 
+
+Product updates
+
+
+
+ <https://www.mongodb.com/>
+
+KingFisher 
+<https://www.mongodb.com/blog/post/product-release-announcements/introducing-kingfisher-real-time-secret-detection-validation>
+
+
+
+
+MongoDB’s new open-source secret-scanning tool detects and validates exposed 
+secrets in code repositories, git commit histories, and file systems. This 
+hardens protection against credential-related attacks and reduces false 
+positives to save security teams time.
+
+
+
+
+ <https://www.mongodb.com/>
+
+
+
+Atlas Data Explorer 
+<https://www.mongodb.com/blog/post/product-release-announcements/new-data-management-experience-in-atlas-ui>
+ (Public Preview)
+
+
+
+MongoDB has brought the power of Compass to the web, allowing sophisticated 
+data interaction in the Atlas UI. Developers can now view data and test and 
+optimize queries without toggling back and forth between tools.
+
+
+
+ <https://www.mongodb.com/>
+
+ <https://www.mongodb.com/docs/atlas/performance-advisor/>MongoDB 8.1 Server 
+<https://medium.com/mongodb/mongodb-ef-core-provider-now-supports-ef-9-62db9b89ce0d>
+ (GA)
+
+
+
+This release introduces enhancements to aggregation, security, performance, 
+query settings, statistics, and hybrid search. These improvements enable 
+richer, more adaptable search and analytics experiences.
+
+
+
+
+ 
+
+
+
+Upcoming livestreams and webinars 
+
+
+
+ <https://www.mongodb.com/>
+
+ * 
+June 19: Intro to AI Agents and Agentic Systems 
+<https://www.mongodb.com/resources/solutions/use-cases/intro-to-ai-agents-and-agentic-systems>
+
+ * July 29: Experience the Beanie ODM: Build Robust Data Models in Python 
+<https://www.youtube.com/watch?v=8gpYAW1KUKQ>
+
+
+
+ 
+
+Explore new developer resources
+
+
+
+ <https://www.youtube.com/watch?v=yJGphrhmpDU>
+
+Videos
+
+ * 
+Demo: How to Upgrade from MongoDB Version 7 to 8.0 
+<https://youtu.be/yJGphrhmpDU>
+
+ * Low-Code Development with n8n & MongoDB! 
+<https://www.youtube.com/watch?v=xMbviLKAvOI>
+ * 
+MongoDB 8.0 Feature Deep Dive: Performance, Enhanced Security & More 
+<https://youtu.be/LIKOUO3mEYE>
+
+ * People Who Ship Episode 1: Building Centralized gen AI Tooling 
+<https://www.youtube.com/watch?v=DQIoQBA83dk&t>
+ * Prisma & MongoDB | Type-Safety, Schema Management, & More! 
+<https://www.youtube.com/watch?v=jYv6lKig4Q4>
+ * PydanticAI: Agentic RAG, Internet Access, and Beyond 
+<https://www.youtube.com/watch?v=8eoPhs6j9Xs> 
+ * Ship MCP‑Ready Tools for AI Agents in Minutes with BuildShip + MongoDB 
+<https://youtube.com/live/mof0nJ8WYaM>
+
+
+Guides
+
+ * 
+Build a Chatbot with Symfony and MongoDB 
+<https://dev.to/mongodb/building-a-chatbot-with-symfony-and-mongodb-5c8g>
+
+ * 
+Spring AI and MongoDB: How to Build RAG Applications 
+<https://dev.to/mongodb/how-to-build-rag-applications-with-spring-ai-and-mongodb-5gaj>
+
+ * Your Guide to Diagnose Slow Queries in MongoDB 
+<https://medium.com/p/e1ff19bf74f6>
+ * Your Guide to Optimizing Slow Queries 
+<https://medium.com/mongodb/your-guide-to-optimizing-slow-queries-f69cf413ee71>
+
+
+
+ 
+Join the MongoDB Developer Community  
+<https://www.mongodb.com/community/forums/>
+
+
+
+  
+
+
+
+
+
+
+
+
+ <https://www.linkedin.com/company/mongodbinc/>  <https://twitter.com/mongodb> 
+ <https://youtube.com/user/mongodb>  <https://www.instagram.com/mongodb>  
+<https://www.mongodb.com/developer/> 
+
+Copyright © 2025 MongoDB, All rights reserved.
+1633 Broadway Floor 38, New York, NY 10019
+view in browser 
+<https://email.mongodb.com/s/vb/JWyQ-0ZPyV4HHaSpoWNAnJL6m3mrbk9-pJ8rUbBUjVJNtVVd5_WUfLCDxmYKn8WAFzFpuhUVwyAHresHxsN-fq1Sji0iqtkX5gler9gM6Ft-_pz3ZuYz1aYr7Vmq6Jf7E537lfr0z1xXrRD0sQ/-FZbk6lXFZ3QT-C9RgMyZOQGDFgJpafU/10>
+ orunsubscribe 
+<https://email.mongodb.com/s/eh/O3CIoRTFmOtHvnM6Z8VLAScmfRzNo7BjCGIaT9guZX1cHTT6PQwpXJ-2XTBBtgjv8gSWH32CAKYbhEsSh95uo7bMs7iJ1qxOyrtiHHnxs1-_bt8BfBqjGybEYPoPt8haAkuVxo-RZOH0mc2ih6nvpG9VRB5lSLXVzU2erd5N6Z5v25hi5LliXegHN-_ASNxJAo4fgRdFeVFpKtD_nTwKFPG33Ink-W9XASuQ3pWmgaJzatmUZUHH/uW1TOv-FtJYfqwTm4EUdZtouCTy2opR7/10>
+2025-07-11 13:56:36 | INFO     | src.services.response_service:generate_response:117 - Generated response for email 1978320e05533376 in 0.06s
+2025-07-11 13:56:37 | INFO     | src.services.gmail_service:mark_email_as_read:208 - Email 1978320e05533376 marked as read
+2025-07-11 13:56:38 | INFO     | src.services.gmail_service:add_label:227 - Label 'AI_Processed' added to email 1978320e05533376
+2025-07-11 13:56:38 | INFO     | __main__:_process_email_batch:128 - Batch processing completed: 10 successful, 0 failed
+2025-07-11 13:57:34 | INFO     | __main__:_signal_handler:39 - Received signal 2, shutting down...
+2025-07-11 13:57:38 | INFO     | __main__:start:62 - Email response system stopped
+2025-07-11 13:57:38 | INFO     | __main__:_cleanup:258 - Cleaning up resources...
+2025-07-11 13:57:38 | INFO     | src.services.cache_service:close:224 - Redis cache connection closed
+2025-07-11 13:57:38 | INFO     | __main__:_cleanup:263 - Cleanup completed
