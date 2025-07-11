@@ -1,0 +1,57 @@
+# Core Framework Dependencies
+langchain==0.1.0
+
+# Web Framework and Real-time Communication
+fastapi==0.103.2
+uvicorn[standard]==0.22.0
+websockets==11.0.3
+python-socketio==5.10.0
+python-multipart==0.0.6
+
+# Database and Vector Storage
+chromadb==0.4.14
+sqlalchemy==2.0.23
+alembic==1.12.1
+psycopg2-binary==2.9.9
+
+# Data Processing and Analysis
+pandas==2.2.0
+numpy==1.26.4
+yfinance==0.2.28
+requests==2.31.0
+aiohttp==3.8.6
+
+# AI and ML
+openai==1.6.1
+transformers==4.30.2
+torch==2.1.2
+scikit-learn==1.3.2
+nltk==3.8.1
+
+# News and Sentiment Analysis
+newsapi-python==0.2.6
+textblob==0.17.1
+vaderSentiment==3.3.2
+
+# Environment and Configuration
+python-dotenv==1.0.0
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# Async and Concurrency
+aiofiles==23.2.1
+httpx==0.25.2
+
+# Development and Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.12.1
+flake8==6.1.0
+
+# Monitoring and Logging
+loguru==0.7.2
+prometheus-client==0.19.0
+
+# Caching
+redis==5.0.1
+aioredis==2.0.1 

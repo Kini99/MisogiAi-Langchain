@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Chat - Real-time AI Trading Assistant</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .sidebar {
+            width: 300px;
+            background: linear-gradient(180deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .logo h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .logo p {
+            font-size: 12px;
+            opacity: 0.7;
+        }
+
+        .market-summary {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .market-summary h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #ecf0f1;
+        }
+
+        .index-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .index-value {
+            font-weight: bold;
+        }
+
+        .positive { color: #2ecc71; }
+        .negative { color: #e74c3c; }
+        .neutral { color: #95a5a6; }
+
+        .quick-actions {
+            flex: 1;
+        }
+
+        .quick-actions h3 {
+            font-size: 16px;
+            margin-bottom: 15px;
+            color: #ecf0f1;
+        }
+
+        .action-btn {
+            display: block;
+            width: 100%;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: left;
+        }
+
+        .action-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateX(5px);
+        }
+
+        .action-btn i {
+            margin-right: 10px;
+            width: 16px;
+        }
+
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-header {
+            background: white;
+            padding: 20px;
+            border-bottom: 1px solid #ecf0f1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .chat-header h2 {
+            color: #2c3e50;
+            font-size: 20px;
+        }
+
+        .connection-status {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        .status-indicator {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .status-connected { background: #2ecc71; }
+        .status-disconnected { background: #e74c3c; }
+        .status-connecting { background: #f39c12; }
+
+        .chat-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background: #f8f9fa;
+        }
+
+        .message {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .message.user {
+            justify-content: flex-end;
+        }
+
+        .message-content {
+            max-width: 70%;
+            padding: 15px 20px;
+            border-radius: 20px;
+            position: relative;
+            word-wrap: break-word;
+        }
+
+        .message.user .message-content {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-bottom-right-radius: 5px;
+        }
+
+        .message.assistant .message-content {
+            background: white;
+            color: #2c3e50;
+            border: 1px solid #ecf0f1;
+            border-bottom-left-radius: 5px;
+        }
+
+        .message.system .message-content {
+            background: #f39c12;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+            font-style: italic;
+        }
+
+        .message.error .message-content {
+            background: #e74c3c;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .message-time {
+            font-size: 12px;
+            opacity: 0.7;
+            margin-top: 5px;
+        }
+
+        .stock-card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 4px solid #3498db;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .stock-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .stock-symbol {
+            font-weight: bold;
+            font-size: 18px;
+            color: #2c3e50;
+        }
+
+        .stock-price {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .stock-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            font-size: 14px;
+        }
+
+        .stock-detail {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .chat-input {
+            background: white;
+            padding: 20px;
+            border-top: 1px solid #ecf0f1;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .input-container {
+            flex: 1;
+            position: relative;
+        }
+
+        .chat-input input {
+            width: 100%;
+            padding: 15px 20px;
+            border: 2px solid #ecf0f1;
+            border-radius: 25px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .chat-input input:focus {
+            border-color: #667eea;
+        }
+
+        .send-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .send-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .send-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .typing-indicator {
+            display: none;
+            padding: 15px 20px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        .typing-indicator.show {
+            display: block;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .news-item {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 4px solid #e74c3c;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+
+        .news-source {
+            font-size: 12px;
+            color: #7f8c8d;
+        }
+
+        .recommendation-card {
+            background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px 0;
+            box-shadow: 0 4px 15px rgba(46, 204, 113, 0.3);
+        }
+
+        .recommendation-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .recommendation-icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+
+        .recommendation-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .recommendation-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .recommendation-detail {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                border-radius: 0;
+            }
+
+            .sidebar {
+                width: 100%;
+                height: auto;
+                max-height: 200px;
+            }
+
+            .main-content {
+                height: calc(100vh - 200px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <h1><i class="fas fa-chart-line"></i> StockChat</h1>
+                <p>AI-Powered Trading Assistant</p>
+            </div>
+
+            <div class="market-summary">
+                <h3><i class="fas fa-globe"></i> Market Summary</h3>
+                <div id="market-indices">
+                    <div class="index-item">
+                        <span>S&P 500</span>
+                        <span class="index-value">Loading...</span>
+                    </div>
+                    <div class="index-item">
+                        <span>NASDAQ</span>
+                        <span class="index-value">Loading...</span>
+                    </div>
+                    <div class="index-item">
+                        <span>DOW</span>
+                        <span class="index-value">Loading...</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quick-actions">
+                <h3><i class="fas fa-bolt"></i> Quick Actions</h3>
+                <button class="action-btn" onclick="sendQuickMessage('Show me market news')">
+                    <i class="fas fa-newspaper"></i> Market News
+                </button>
+                <button class="action-btn" onclick="sendQuickMessage('Show trending stocks')">
+                    <i class="fas fa-fire"></i> Trending Stocks
+                </button>
+                <button class="action-btn" onclick="sendQuickMessage('Market summary')">
+                    <i class="fas fa-chart-bar"></i> Market Overview
+                </button>
+                <button class="action-btn" onclick="sendQuickMessage('What is the price of AAPL?')">
+                    <i class="fas fa-search"></i> Stock Price
+                </button>
+                <button class="action-btn" onclick="sendQuickMessage('Analyze TSLA')">
+                    <i class="fas fa-robot"></i> AI Analysis
+                </button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="chat-header">
+                <h2><i class="fas fa-comments"></i> Stock Market Chat</h2>
+                <div class="connection-status">
+                    <div class="status-indicator status-disconnected" id="status-indicator"></div>
+                    <span id="status-text">Disconnected</span>
+                </div>
+            </div>
+
+            <div class="chat-messages" id="chat-messages">
+                <!-- Messages will be added here -->
+            </div>
+
+            <div class="typing-indicator" id="typing-indicator">
+                <div class="loading"></div>
+                AI is analyzing...
+            </div>
+
+            <div class="chat-input">
+                <div class="input-container">
+                    <input type="text" id="message-input" placeholder="Ask about stocks, market data, or get AI recommendations..." autocomplete="off">
+                </div>
+                <button class="send-btn" id="send-btn" onclick="sendMessage()">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let ws = null;
+        let userId = 'user_' + Math.random().toString(36).substr(2, 9);
+        let isConnected = false;
+
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeWebSocket();
+            loadMarketData();
+            setupEventListeners();
+        });
+
+        function initializeWebSocket() {
+            const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsUrl = `${protocol}//${window.location.host}/ws/${userId}`;
+            
+            ws = new WebSocket(wsUrl);
+            
+            ws.onopen = function() {
+                console.log('WebSocket connected');
+                isConnected = true;
+                updateConnectionStatus('connected');
+            };
+            
+            ws.onmessage = function(event) {
+                const data = JSON.parse(event.data);
+                handleMessage(data);
+            };
+            
+            ws.onclose = function() {
+                console.log('WebSocket disconnected');
+                isConnected = false;
+                updateConnectionStatus('disconnected');
+                // Try to reconnect after 5 seconds
+                setTimeout(initializeWebSocket, 5000);
+            };
+            
+            ws.onerror = function(error) {
+                console.error('WebSocket error:', error);
+                updateConnectionStatus('disconnected');
+            };
+        }
+
+        function updateConnectionStatus(status) {
+            const indicator = document.getElementById('status-indicator');
+            const statusText = document.getElementById('status-text');
+            
+            indicator.className = 'status-indicator status-' + status;
+            
+            switch(status) {
+                case 'connected':
+                    statusText.textContent = 'Connected';
+                    break;
+                case 'disconnected':
+                    statusText.textContent = 'Disconnected';
+                    break;
+                case 'connecting':
+                    statusText.textContent = 'Connecting...';
+                    break;
+            }
+        }
+
+        function setupEventListeners() {
+            const input = document.getElementById('message-input');
+            const sendBtn = document.getElementById('send-btn');
+            
+            input.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+            
+            input.addEventListener('input', function() {
+                sendBtn.disabled = !input.value.trim();
+            });
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('message-input');
+            const message = input.value.trim();
+            
+            if (!message || !isConnected) return;
+            
+            // Add user message to chat
+            addMessage('user', message);
+            
+            // Send message via WebSocket
+            ws.send(JSON.stringify({
+                type: 'message',
+                content: message
+            }));
+            
+            // Clear input
+            input.value = '';
+            document.getElementById('send-btn').disabled = true;
+            
+            // Show typing indicator
+            showTypingIndicator();
+        }
+
+        function sendQuickMessage(message) {
+            if (!isConnected) {
+                alert('Please wait for connection to be established.');
+                return;
+            }
+            
+            addMessage('user', message);
+            ws.send(JSON.stringify({
+                type: 'message',
+                content: message
+            }));
+            showTypingIndicator();
+        }
+
+        function handleMessage(data) {
+            hideTypingIndicator();
+            
+            switch(data.type) {
+                case 'assistant':
+                    addMessage('assistant', data.content, data.metadata);
+                    break;
+                case 'system':
+                    addMessage('system', data.content);
+                    break;
+                case 'error':
+                    addMessage('error', data.content);
+                    break;
+                case 'pong':
+                    // Handle ping/pong for connection health
+                    break;
+            }
+        }
+
+        function addMessage(type, content, metadata = null) {
+            const messagesContainer = document.getElementById('chat-messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${type}`;
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            
+            // Process content based on type and metadata
+            if (metadata && metadata.stock_data) {
+                contentDiv.innerHTML = formatStockData(metadata.stock_data);
+            } else if (metadata && metadata.recommendation) {
+                contentDiv.innerHTML = formatRecommendation(metadata.recommendation);
+            } else if (metadata && metadata.news_count) {
+                contentDiv.innerHTML = formatNewsSummary(content, metadata);
+            } else {
+                contentDiv.innerHTML = formatTextContent(content);
+            }
+            
+            // Add timestamp
+            const timeDiv = document.createElement('div');
+            timeDiv.className = 'message-time';
+            timeDiv.textContent = new Date().toLocaleTimeString();
+            contentDiv.appendChild(timeDiv);
+            
+            messageDiv.appendChild(contentDiv);
+            messagesContainer.appendChild(messageDiv);
+            
+            // Scroll to bottom
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        function formatTextContent(content) {
+            // Convert markdown-like formatting to HTML
+            return content
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                .replace(/\n/g, '<br>');
+        }
+
+        function formatStockData(stockData) {
+            const changeClass = stockData.change_percent >= 0 ? 'positive' : 'negative';
+            const changeIcon = stockData.change_percent >= 0 ? '📈' : '📉';
+            
+            return `
+                <div class="stock-card">
+                    <div class="stock-header">
+                        <span class="stock-symbol">${stockData.symbol}</span>
+                        <span class="stock-price">$${stockData.price.toFixed(2)}</span>
+                    </div>
+                    <div class="stock-details">
+                        <div class="stock-detail">
+                            <span>Change:</span>
+                            <span class="${changeClass}">${changeIcon} ${stockData.change.toFixed(2)} (${stockData.change_percent.toFixed(2)}%)</span>
+                        </div>
+                        <div class="stock-detail">
+                            <span>Volume:</span>
+                            <span>${stockData.volume.toLocaleString()}</span>
+                        </div>
+                        <div class="stock-detail">
+                            <span>Market Cap:</span>
+                            <span>$${(stockData.market_cap / 1e9).toFixed(2)}B</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function formatRecommendation(recommendation) {
+            const recIcons = {
+                'buy': '🟢',
+                'sell': '🔴',
+                'hold': '🟡'
+            };
+            
+            return `
+                <div class="recommendation-card">
+                    <div class="recommendation-header">
+                        <span class="recommendation-icon">${recIcons[recommendation.recommendation] || '🟡'}</span>
+                        <span class="recommendation-title">${recommendation.recommendation.toUpperCase()} Recommendation</span>
+                    </div>
+                    <div class="recommendation-details">
+                        <div class="recommendation-detail">
+                            <span>Confidence:</span>
+                            <span>${(recommendation.confidence_score * 100).toFixed(0)}%</span>
+                        </div>
+                        <div class="recommendation-detail">
+                            <span>Risk Level:</span>
+                            <span>${recommendation.risk_level}</span>
+                        </div>
+                        <div class="recommendation-detail">
+                            <span>Time Horizon:</span>
+                            <span>${recommendation.time_horizon}</span>
+                        </div>
+                        <div class="recommendation-detail">
+                            <span>Price Target:</span>
+                            <span>${recommendation.price_target}</span>
+                        </div>
+                    </div>
+                    <div style="margin-top: 15px; font-size: 14px;">
+                        <strong>Reasoning:</strong><br>
+                        ${recommendation.reasoning}
+                    </div>
+                </div>
+            `;
+        }
+
+        function formatNewsSummary(content, metadata) {
+            return `
+                <div>
+                    ${formatTextContent(content)}
+                    <div style="margin-top: 10px; font-size: 12px; color: #7f8c8d;">
+                        📰 Found ${metadata.news_count} relevant articles
+                    </div>
+                </div>
+            `;
+        }
+
+        function showTypingIndicator() {
+            document.getElementById('typing-indicator').classList.add('show');
+        }
+
+        function hideTypingIndicator() {
+            document.getElementById('typing-indicator').classList.remove('show');
+        }
+
+        async function loadMarketData() {
+            try {
+                const response = await fetch('/api/market/summary');
+                const data = await response.json();
+                
+                if (data.success && data.data.indices) {
+                    updateMarketIndices(data.data.indices);
+                }
+            } catch (error) {
+                console.error('Error loading market data:', error);
+            }
+        }
+
+        function updateMarketIndices(indices) {
+            const indicesContainer = document.getElementById('market-indices');
+            
+            const indexMap = {
+                '^GSPC': 'S&P 500',
+                '^IXIC': 'NASDAQ',
+                '^DJI': 'DOW'
+            };
+            
+            Object.keys(indices).forEach(symbol => {
+                const data = indices[symbol];
+                if (data && indexMap[symbol]) {
+                    const changeClass = data.change_percent >= 0 ? 'positive' : 'negative';
+                    const changeIcon = data.change_percent >= 0 ? '📈' : '📉';
+                    
+                    const indexElement = indicesContainer.querySelector(`[data-symbol="${symbol}"]`);
+                    if (indexElement) {
+                        indexElement.innerHTML = `
+                            <span>${indexMap[symbol]}</span>
+                            <span class="index-value ${changeClass}">
+                                $${data.price.toFixed(2)} ${changeIcon}
+                            </span>
+                        `;
+                    }
+                }
+            });
+        }
+
+        // Auto-refresh market data every 30 seconds
+        setInterval(loadMarketData, 30000);
+    </script>
+</body>
+</html> 
