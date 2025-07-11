@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Interpreter - Full-Stack Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/theme/monokai.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/theme/dracula.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1><i class="fas fa-code"></i> Code Interpreter</h1>
+                <div class="header-controls">
+                    <select id="language-selector" class="language-selector">
+                        <option value="python">Python 3.11</option>
+                        <option value="javascript">JavaScript (Node.js)</option>
+                    </select>
+                    <button id="run-btn" class="run-btn">
+                        <i class="fas fa-play"></i> Run Code
+                    </button>
+                    <button id="analyze-btn" class="analyze-btn">
+                        <i class="fas fa-search"></i> Analyze
+                    </button>
+                    <button id="explain-btn" class="explain-btn">
+                        <i class="fas fa-lightbulb"></i> Explain
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Code Editor Section -->
+            <div class="editor-section">
+                <div class="editor-header">
+                    <h3><i class="fas fa-edit"></i> Code Editor</h3>
+                    <div class="editor-controls">
+                        <button id="clear-btn" class="clear-btn">
+                            <i class="fas fa-trash"></i> Clear
+                        </button>
+                        <button id="theme-toggle" class="theme-toggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="editor-container">
+                    <textarea id="code-editor"></textarea>
+                </div>
+            </div>
+
+            <!-- Output Section -->
+            <div class="output-section">
+                <div class="output-header">
+                    <h3><i class="fas fa-terminal"></i> Output</h3>
+                    <div class="output-controls">
+                        <button id="clear-output-btn" class="clear-output-btn">
+                            <i class="fas fa-trash"></i> Clear
+                        </button>
+                        <button id="copy-output-btn" class="copy-output-btn">
+                            <i class="fas fa-copy"></i> Copy
+                        </button>
+                    </div>
+                </div>
+                <div class="output-container">
+                    <div id="output-content" class="output-content"></div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Analysis Panel -->
+        <div id="analysis-panel" class="analysis-panel hidden">
+            <div class="analysis-header">
+                <h3><i class="fas fa-chart-bar"></i> Code Analysis</h3>
+                <button id="close-analysis-btn" class="close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div id="analysis-content" class="analysis-content"></div>
+        </div>
+
+        <!-- Explanation Panel -->
+        <div id="explanation-panel" class="explanation-panel hidden">
+            <div class="explanation-header">
+                <h3><i class="fas fa-lightbulb"></i> AI Explanation</h3>
+                <button id="close-explanation-btn" class="close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div id="explanation-content" class="explanation-content"></div>
+        </div>
+
+        <!-- Status Bar -->
+        <div class="status-bar">
+            <div class="status-item">
+                <span id="connection-status" class="status-indicator offline">
+                    <i class="fas fa-circle"></i> Offline
+                </span>
+            </div>
+            <div class="status-item">
+                <span id="execution-status">Ready</span>
+            </div>
+            <div class="status-item">
+                <span id="language-info">Python 3.11</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/python/python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/javascript/javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/edit/closebrackets.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/edit/matchbrackets.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/edit/matchtags.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/edit/trailingspace.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/selection/active-line.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/display/placeholder.min.js"></script>
+    <script src="/static/app.js"></script>
+</body>
+</html> 
